@@ -6,6 +6,10 @@ Implementation of Simplified AES (S-AES) in CTR (Counter) mode from scratch in P
 
 ---
 
+## GitHub Repository: https://github.com/TiaHalabi/saes_project.git
+
+----
+
 ## Project Structure
 
 | `saes_gf.py` | GF(2⁴) arithmetic, S-box, nibble helpers |
