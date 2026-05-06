@@ -1,13 +1,7 @@
-"""
-S-AES Simple UI — Encrypt & Decrypt
-Place this file next to: saes_core.py, saes_gf.py, saes_ctr.py
-Run: python saes_ui.py
-"""
-
 import tkinter as tk
 from tkinter import messagebox
 
-# ── Import your project files ─────────────────────────────────────────────────
+# ── Import project files ─────────────────────────────────────────────────
 try:
     from saes_core import saes_encrypt, saes_decrypt
     from saes_ctr  import ctr_process
@@ -91,7 +85,6 @@ MUTED   = "#8892a4"
 BORDER  = "#2a3a5c"
 
 
-# ═════════════════════════════════════════════════════════════════════════════
 class SAESApp(tk.Tk):
     def __init__(self):
         super().__init__()
